@@ -9,7 +9,7 @@ This prime number series generator is a simple Spring Boot application that calc
 This project is designed to showcase how to develop a Spring Boot application with a REST API endpoint for generating prime numbers.
 This application uses Sieve of Eratosthenes algorithm to generate the prime numbers series efficiently.
 
-## Fetaures
+## Features
 - Generate a series of prime numebrs lesser than the input limit
 - Efficient implementation using the Sieve of Eratosthenes alogorithm.
 - Restful API for easy integration into other applications.
@@ -27,7 +27,7 @@ Follow these steps to get the project up and running on your local machine.
    git clone https://github.com/saravanamanoj/primeseriesapp.git
    
    cd primeseriesapp
-3. Build the project:
+2. Build the project:
 
    mvn clean install
 
