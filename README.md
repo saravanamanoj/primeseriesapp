@@ -18,18 +18,21 @@ This application uses Sieve of Eratosthenes algorithm to generate the prime numb
 Follow these steps to get the project up and running on your local machine.
 
 ## Prerequisites
-- Jva a Development Kit (JDK) 8 or later
+- Java Development Kit (JDK) 8 or later
 - Maven
 
 ## Installation
 1. Clone the repository:
+
    git clone https://github.com/saravanamanoj/primeseriesapp.git
+   
    cd primeseriesapp
 3. Build the project:
+
    mvn clean install
 
 ## Usage
 1. Run the application:
    java -jar primeseriesapp-0.0.1.jar
-2. Access the prime numbers series generator endpoint:
-   
+2. Access the prime numbers series generator endpoint: Below command works on Windows command prompt
+   curl -X POST http://192.168.68.57:8080/apps/primeseries -H "Content-Type: application/json" -d "{\"input\":5}"
