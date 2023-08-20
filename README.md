@@ -23,8 +23,9 @@ Follow these steps to get the project up and running on your local machine.
 
 ## Installation
 1. Clone the repository:
-   
-2. Build the project:
+   git clone https://github.com/saravanamanoj/primeseriesapp.git
+   cd primeseriesapp
+3. Build the project:
    mvn clean install
 
 ## Usage
